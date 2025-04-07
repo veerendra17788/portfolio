@@ -1,0 +1,700 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>veerendra - Student Portfolio</title>
+    <!-- Font Awesome will be linked here later -->
+    <link rel="stylesheet" href="vk.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-table@1.24.0/dist/bootstrap-table.min.css">
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/js/all.min.js"></script>
+    
+</head>
+<body>
+    <!-- Animation Elements -->
+    
+    
+    <!-- Cursor Animation -->
+   
+    
+    <!-- Scroll Progress Indicator -->
+    <div class="scroll-progress"></div>
+
+    <!-- Header with Navbar -->
+    <header>
+        <nav class="navbar">
+            <div class="navbar-container">
+                <a href="#" class="logo" style="font-size:xx-large">KOTHURU VEERENDRA KUMAR</a>
+                
+                <div class="nav-links" >
+                    <a href="#about" class="nav-link" data-animation="slide-up" style="font-size: large;">About</a>
+                    <a href="#skills" class="nav-link" data-animation="slide-up" style="font-size: large;">Skills</a>
+                    <a href="#works" class="nav-link" data-animation="slide-up" style="font-size: large;">Projects</a>
+                    <!-- <a href="#blog" class="nav-link" data-animation="slide-up">Blog</a> -->
+                    <a href="#contact" class="nav-link" data-animation="slide-up" style="font-size: large;">Contact</a>
+                </div>
+                
+                <div class="nav-buttons">
+                    <!-- <button class="theme-toggle" id="theme-toggle" aria-label="Toggle dark mode">
+                        <i class="fas fa-moon"></i>
+                    </button> -->
+                    <a href="#contact" class="cta-button primary-btn">Let's Connect</a>
+                </div>
+                
+                <button class="mobile-toggle" id="mobile-toggle" aria-label="Toggle menu">
+                    <span class="bar"></span>
+                    <span class="bar"></span>
+                    <span class="bar"></span>
+                </button>
+            </div>
+            
+            <div class="mobile-menu" id="mobile-menu">
+                <a href="#about" class="mobile-link">About</a>
+                <a href="#skills" class="mobile-link">Skills</a>
+                <a href="#works" class="mobile-link">Projects</a>
+                <!-- <a href="#blog" class="mobile-link">Blog</a> -->
+                <a href="#contact" class="mobile-link">Contact</a>
+                <a href="#contact" class="mobile-cta">Let's Connect</a>
+            </div>
+        </nav>
+    </header>
+
+    <!-- Hero Section -->
+    <section class="hero" id="home">
+        <div class="hero-content">
+            <h1 class="hero-title" data-animation="reveal">
+                <span class="text-reveal">READY TO</span>
+                <span class="text-reveal">KICKSTART</span>
+                <span class="text-reveal">YOUR PROJECT</span>
+                <!-- <span class="text-reveal">WITH A TOUCH OF</span>
+                <span class="text-reveal highlight">MAGIC?</span> -->
+            </h1>
+            
+            <p class="hero-description" data-animation="fade-in">
+                Student developer and designer passionate about creating digital experiences.
+                Available for collaboration to push the boundaries of design and deliver exceptional work. ✨
+            </p>
+            
+            <div class="cta-buttons" data-animation="slide-up">
+                <a href="#contact" class="cta-button primary-btn">Let's Talk</a>
+                <a href="#works" class="cta-button secondary-btn">View My Work</a>
+            </div>
+        </div>
+        
+        <div class="hero-visual">
+            <div class="floating-elements">
+                <div class="floating-icon" data-speed="2"><i class="fab fa-html5"></i></div>
+                <div class="floating-icon" data-speed="1.5"><i class="fab fa-css3-alt"></i></div>
+                <div class="floating-icon" data-speed="3"><i class="fab fa-js"></i></div>
+                <div class="floating-icon" data-speed="2.5"><i class="fab fa-react"></i></div>
+                <div class="floating-icon" data-speed="1.8"><i class="fab fa-figma"></i></div>
+            </div>
+        </div>
+        
+        <div class="animated-background">
+            <!-- Basic shapes -->
+            <div class="shape"></div>
+            <div class="shape"></div>
+            <div class="shape"></div>
+            <div class="shape"></div>
+            <div class="shape"></div>
+            <div class="shape"></div>
+            <div class="shape"></div>
+            <div class="shape"></div>
+            <div class="shape"></div>
+            <div class="shape"></div>
+            
+            <!-- Image shapes -->
+            <div class="image-shape"></div>
+            <div class="image-shape"></div>
+            <div class="image-shape"></div>
+            <div class="image-shape"></div>
+            <div class="image-shape"></div>
+          </div>
+    </section>
+
+    <!-- About Section -->
+    <section class="about" id="about">
+        <div class="section-header">
+            <h2 class="section-title" data-animation="reveal" style="font-size: xx-large;">About Me</h2>
+            <span class="section-subtitle">Who I Am</span>
+        </div>
+        
+        <div class="about-container">
+            <div class="about-image-container" data-animation="slide-right">
+                <div class="about-image-wrapper">
+                    <img src="profile.jpg" alt="Dorbesh - Student Developer" class="about-image">
+                    <div class="image-decoration"></div>
+                </div>
+            </div>
+            
+            <div class="about-content" data-animation="slide-left">
+                <p class="about-text">
+                    I'm a passionate student designer and developer with a keen interest in creating beautiful and 
+                    functional web experiences. Currently pursuing my education in design and development,
+                    I focus on user-centric solutions that combine aesthetics with functionality.
+                </p>
+                <p class="about-text">
+                    My journey in the digital world started with simple HTML websites and has evolved to 
+                    include modern frameworks and design systems. I'm constantly learning new technologies 
+                    and techniques to improve my skills and deliver better experiences.
+                </p>
+                
+                <div class="about-stats">
+                    <div class="stat-item" data-animation="count-up">
+                        <h3 class="stat-number">15+</h3>
+                        <p class="stat-label">Projects Completed</p>
+                    </div>
+                    <!-- <div class="stat-item" data-animation="count-up">
+                        <h3 class="stat-number">10+</h3>
+                        <p class="stat-label">Happy Clients</p>
+                    </div> -->
+                    <div class="stat-item" data-animation="count-up">
+                        <h3 class="stat-number">3+</h3>
+                        <p class="stat-label">Years Learning</p>
+                    </div>
+                </div>
+                
+                <div class="about-cta">
+                    <a href="#contact" class="cta-button primary-btn">Contact Me</a>
+                    <a href="#" class="cta-button outline-btn">Download CV</a>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Skills Section -->
+    <section class="skills" id="skills">
+        <div class="section-header">
+            <h2 class="section-title" data-animation="reveal" style="font-size: xx-large;">My Skills</h2>
+            <span class="section-subtitle">What I Know</span>
+        </div>
+        
+        <div class="skills-container" id="skill-id">
+            <!-- <div class="skill-card"  data-animation="fade-up">
+                <div class="skill-icon">
+                    <img src="https://upload.wikimedia.org/wikipedia/commons/3/33/Figma-logo.svg" alt="Figma" class="skill-image">
+                </div>
+                <h3 class="skill-name">Figma</h3>
+                <div class="progress-container">
+                    <div class="progress-bar" data-value="95"></div>
+                </div>
+                <p class="progress-text">95%</p>
+            </div>
+            
+            <div class="skill-card" data-animation="fade-up">
+                <div class="skill-icon">
+                    <img src="https://upload.wikimedia.org/wikipedia/commons/d/d5/Tailwind_CSS_Logo.svg" alt="Tailwind" class="skill-image">
+
+                    <img src="/api/placeholder/60/60" alt="Tailwind" class="skill-image"> 
+                </div>
+                <h3 class="skill-name">Tailwind</h3>
+                <div class="progress-container">
+                    <div class="progress-bar" data-value="90"></div>
+                </div>
+                <p class="progress-text">90%</p>
+            </div>
+            
+            <div class="skill-card" data-animation="fade-up">
+                <div class="skill-icon">
+                    <img src="/api/placeholder/60/60" alt="Photoshop" class="skill-image">
+                </div>
+                <h3 class="skill-name">Photoshop</h3>
+                <div class="progress-container">
+                    <div class="progress-bar" data-value="75"></div>
+                </div>
+                <p class="progress-text">75%</p>
+            </div>
+            
+            <div class="skill-card" data-animation="fade-up">
+                <div class="skill-icon">
+                    <img src="/api/placeholder/60/60" alt="WordPress" class="skill-image">
+                </div>
+                <h3 class="skill-name">WordPress</h3>
+                <div class="progress-container">
+                    <div class="progress-bar" data-value="80"></div>
+                </div>
+                <p class="progress-text">80%</p>
+            </div>
+            
+            <div class="skill-card" data-animation="fade-up">
+                <div class="skill-icon">
+                    <img src="/api/placeholder/60/60" alt="Angular" class="skill-image">
+                </div>
+                <h3 class="skill-name">Angular</h3>
+                <div class="progress-container">
+                    <div class="progress-bar" data-value="65"></div>
+                </div>
+                <p class="progress-text">65%</p>
+            </div>
+            
+            <div class="skill-card" data-animation="fade-up">
+                <div class="skill-icon">
+                    <img src="/api/placeholder/60/60" alt="Webflow" class="skill-image">
+                </div>
+                <h3 class="skill-name">Webflow</h3>
+                <div class="progress-container">
+                    <div class="progress-bar" data-value="85"></div>
+                </div>
+                <p class="progress-text">85%</p>
+            </div>
+            
+            <div class="skill-card" data-animation="fade-up">
+                <div class="skill-icon">
+                    <img src="/api/placeholder/60/60" alt="Python" class="skill-image">
+                </div>
+                <h3 class="skill-name">Python</h3>
+                <div class="progress-container">
+                    <div class="progress-bar" data-value="60"></div>
+                </div>
+                <p class="progress-text">60%</p>
+            </div>
+            
+            <div class="skill-card" data-animation="fade-up">
+                <div class="skill-icon">
+                    <img src="/api/placeholder/60/60" alt="Sketch" class="skill-image">
+                </div>
+                <h3 class="skill-name">Sketch</h3>
+                <div class="progress-container">
+                    <div class="progress-bar" data-value="70"></div>
+                </div>
+                <p class="progress-text">70%</p>
+            </div> -->
+        </div>
+    </section>
+
+    <!-- Services Section (Simplified for student) -->
+    <!-- <section class="services">
+        <div class="section-header">
+            <h2 class="section-title" data-animation="reveal">My Capabilities</h2>
+            <span class="section-subtitle">What I Can Do</span>
+        </div>
+        
+        <div class="services-container">
+            <div class="service-card" data-animation="tilt-in">
+                <div class="service-icon">
+                    <i class="fas fa-palette"></i>
+                </div>
+                <h3 class="service-title">UI/UX Design</h3>
+                <p class="service-description">
+                    Creating intuitive and visually appealing user interfaces that enhance 
+                    user experience and engagement.
+                </p>
+            </div>
+            
+            <div class="service-card" data-animation="tilt-in">
+                <div class="service-icon">
+                    <i class="fas fa-code"></i>
+                </div>
+                <h3 class="service-title">Web Development</h3>
+                <p class="service-description">
+                    Building responsive, fast, and functional websites using 
+                    modern technologies and best practices.
+                </p>
+            </div>
+            
+            <div class="service-card" data-animation="tilt-in">
+                <div class="service-icon">
+                    <i class="fas fa-mobile-alt"></i>
+                </div>
+                <h3 class="service-title">Mobile App Design</h3>
+                <p class="service-description">
+                    Designing user-friendly mobile application interfaces
+                    that provide seamless experiences.
+                </p>
+            </div>
+            
+            <div class="service-card" data-animation="tilt-in">
+                <div class="service-icon">
+                    <i class="fas fa-paint-brush"></i>
+                </div>
+                <h3 class="service-title">Graphic Design</h3>
+                <p class="service-description">
+                    Creating visual content to communicate messages through 
+                    typography, color, and imagery.
+                </p>
+            </div>
+        </div>
+    </section> -->
+   
+    
+    <div class="container">
+        <!-- Left Side: My Capabilities -->
+        <div class="left">
+            <h2 class="section-title" style="font-size: x-large;">My Capabilities</h2>
+            <div class="capabilities">
+                <div class="capability-card">
+                    <h2>Leadership</h2>
+                    <!-- <p>Ability to take initiative, guide teams, and drive projects to success.</p> -->
+                </div>
+                <div class="capability-card">
+                    <h2>Attention to Detail</h2>
+                    <!-- <p>Ensuring accuracy, quality, and thoroughness in all tasks.</p> -->
+                </div>
+                <div class="capability-card">
+                    <h2>Teamwork and Collaboration</h2>
+                    <!-- <p>Working effectively with diverse teams to achieve common goals.</p> -->
+                </div>
+                <div class="capability-card">
+                    <h2>Adaptability and Continuous Learning</h2>
+                    <!-- <p>Quickly adapting to changes and continuously improving skills.</p> -->
+                </div>
+                <div class="capability-card">
+                    <h2>Problem-Solving and Analytical Thinking</h2>
+                    <!-- <p>Breaking down complex issues and finding effective solutions.</p> -->
+                </div>
+                <div class="capability-card">
+                    <h2>Communication Skills</h2>
+                    <!-- <p>Strong verbal and written communication for clear interactions.</p> -->
+                </div>
+                <!-- <div class="capability-card">
+                    <h3>Frontend Development</h3>
+                    
+                </div>
+                <div class="capability-card">
+                    <h3>Backend Development</h3>
+                    
+                </div>
+                <div class="capability-card">
+                    <h3>Backend Development</h3>
+                    
+                </div>
+                <div class="capability-card">
+                    <h3>Backend Development</h3>
+                    
+                </div>
+                <div class="capability-card">
+                    <h3>Backend Development</h3>
+                    
+                </div> -->
+            </div>
+        </div>
+    
+        <!-- Right Side: Education -->
+        <div class="right">
+            <h2 class="section-title" style="font-size: x-large;">Education</h2>
+            <div class="education">
+                <div class="timeline">
+                    <div class="timeline-item">
+                        <h2>B.Tech in Computer Science</h2>
+                        <p>Gayatri Vidya Parishad College of Engineering (2022 - 2026)</p>
+                        <p>CGPA: 9.3</p>
+                    </div>
+                    <div class="timeline-item">
+                        <h2>Intermediate (MPC)</h2>
+                        <p>Aditya Jr College (2019 - 2021)</p>
+                        <p>Marks: 982/1000</p>
+                    </div>
+                    <div class="timeline-item">
+                        <h2>High School</h2>
+                        <p>Bhashyam High School (2017 - 2019)</p>
+                        <p>GPA: 10 Points</p>
+                    </div>
+                    
+                </div>
+            </div>
+        </div>
+    </div>
+    
+
+
+
+
+
+    <!-- Projects Section -->
+    <section class="projects" id="works">
+        <div class="section-header">
+            <h2 class="section-title" data-animation="reveal" style="font-size: xx-large;">Featured Projects</h2>
+            <span class="section-subtitle">My Portfolio</span>
+            <p class="section-description" style="margin-top: 20px;">
+                Check out some of my design projects, meticulously crafted with love and 
+                dedication, each one reflecting my growing skills and passion.
+            </p>
+        </div>
+        
+        <div class="project-filter" data-animation="fade-in">
+            <button class="filter-btn active" data-filter="all" style="font-size: large;">All Projects</button>
+            <!-- <button class="filter-btn" data-filter="design">Design</button>
+            <button class="filter-btn" data-filter="branding">Branding</button>
+            <button class="filter-btn" data-filter="marketing">Marketing</button>
+            <button class="filter-btn" data-filter="game">Game Design</button> -->
+        </div>
+        
+        <div class="projects-grid">
+            <div class="project-card" data-category="branding" data-animation="reveal-card">
+                <div class="project-image-container">
+                    <img src="project.png" alt="Mobile App" class="project-img">
+                    <div class="project-overlay">
+                        <div class="project-links">
+                            <a href="https://github.com/veerendra17788/quizzApp" target="_blank" class="project-link"><i class="fas fa-eye"></i></a>
+                            <a href="https://github.com/veerendra17788/quizzApp" target="_blank" class="project-link"><i class="fas fa-code"></i></a>
+                        </div>
+                    </div>
+                </div>
+                <div class="project-content">
+                    <p class="project-category">Quiz</p>
+                    <h3 class="project-title">Web Application Design</h3>
+                    <p class="project-description">A clean and intuitive web app for Quiz</p>
+                </div>
+            </div>
+            
+            <div class="project-card" data-category="design" data-animation="reveal-card">
+                <div class="project-image-container">
+                    <img src="image1.png" alt="Website Design" class="project-img">
+                    <div class="project-overlay">
+                        <div class="project-links">
+                            <a href="https://veerendra17788.github.io/RealRiceProject/" target="_blank" class="project-link"><i class="fas fa-eye"></i></a>
+                            <a href="https://github.com/veerendra17788/RealRiceProject/" target="_blank" class="project-link"><i class="fas fa-code"></i></a>
+                        </div>
+                    </div>
+                </div>
+                <div class="project-content">
+                    <p class="project-category">Design</p>
+                    <h3 class="project-title">Website RealRiceProject Design</h3>
+                    <p class="project-description">Modern website design for a Rice brand</p>
+                </div>
+            </div>
+            
+            <div class="project-card" data-category="branding" data-animation="reveal-card">
+                <div class="project-image-container">
+                    <img src="image2.png" alt="Brand Identity" class="project-img">
+                    <div class="project-overlay">
+                        <div class="project-links">
+                            <a href="https://veerendra17788.github.io/courior/html/Index.html" target="_blank" class="project-link"><i class="fas fa-eye"></i></a>
+                            <a href="https://github.com/veerendra17788/courior" target="_blank" class="project-link"><i class="fas fa-code"></i></a>
+                        </div>
+                    </div>
+                </div>
+                <div class="project-content">
+                    <p class="project-category">Marketing Delivery</p>
+                    <h3 class="project-title">Brand Delivery Design</h3>
+                    <p class="project-description">Complete Tracking for courior</p>
+                </div>
+            </div>
+            
+            <div class="project-card" data-category="marketing" data-animation="reveal-card">
+                <div class="project-image-container">
+                    <img src="image3.png" alt="Marketing Campaign" class="project-img">
+                    <div class="project-overlay">
+                        <div class="project-links">
+                            <a href="https://veerendra17788.github.io/R-Orange/" target="_blank" class="project-link"><i class="fas fa-eye"></i></a>
+                            <a href="https://github.com/veerendra17788/R-Orange" target="_blank" class="project-link"><i class="fas fa-code"></i></a>
+                        </div>
+                    </div>
+                </div>
+                <div class="project-content">
+                    <p class="project-category">DSA</p>
+                    <h3 class="project-title">Data Structure and Algorithm</h3>
+                    <p class="project-description">Dsa web App Rotten Oranges</p>
+                </div>
+            </div>
+            
+            <div class="project-card" data-category="game" data-animation="reveal-card">
+                <div class="project-image-container">
+                    <img src="project.png" alt="Game Design" class="project-img">
+                    <div class="project-overlay">
+                        <div class="project-links">
+                            <a href="#" class="project-link"><i class="fas fa-eye"></i></a>
+                            <a href="#" class="project-link"><i class="fas fa-code"></i></a>
+                        </div>
+                    </div>
+                </div>
+                <div class="project-content">
+                    <p class="project-category">Game</p>
+                    <h3 class="project-title">Mobile Game UI Design</h3>
+                    <p class="project-description">Interface design for a casual mobile game</p>
+                </div>
+            </div>
+            
+            <div class="project-card" data-category="design" data-animation="reveal-card">
+                <div class="project-image-container">
+                    <img src="project.png" alt="Web App" class="project-img">
+                    <div class="project-overlay">
+                        <div class="project-links">
+                            <a href="https://veerendra17788.github.io/vkproject1/" class="project-link"><i class="fas fa-eye"></i></a>
+                            <a href="#" class="project-link"><i class="fas fa-code"></i></a>
+                        </div>
+                    </div>
+                </div>
+                <div class="project-content">
+                    <p class="project-category">Design</p>
+                    <h3 class="project-title">Web Application Interface</h3>
+                    <p class="project-description">Dashboard interface for data visualization</p>
+                </div>
+            </div>
+        </div>
+        
+        <div class="project-cta" data-animation="fade-up">
+            <a href="https://github.com/veerendra17788" target="_blank" class="cta-button primary-btn">View All Projects</a>
+        </div>
+    </section>
+
+    <!-- Testimonials Section -->
+   
+
+    <!-- Blog Section -->
+     
+    <!-- <section class="blog" id="blog">
+        <div class="section-header">
+            <h2 class="section-title" data-animation="reveal">Blog Posts</h2>
+            <span class="section-subtitle">Latest Updates</span>
+            <p class="section-description">
+                Check out my latest articles about design, development, and student life.
+            </p>
+        </div>
+        
+        <div class="blog-grid">
+            <article class="blog-card" data-animation="grow">
+                <div class="blog-image-container">
+                    <img src="project.png" alt="Blog Post 1" class="blog-img">
+                    <span class="blog-category">Design Trends</span>
+                </div>
+                <div class="blog-content">
+                    <div class="blog-meta">
+                        <span class="blog-date"><i class="far fa-calendar"></i> Feb 10, 2025</span>
+                        <span class="blog-comments"><i class="far fa-comment"></i> 12 Comments</span>
+                    </div>
+                    <h3 class="blog-title">Web Design Trends for Students in 2025</h3>
+                    <p class="blog-excerpt">
+                        Explore the cutting-edge design trends that are shaping the web landscape and 
+                        how students can incorporate them in their projects.
+                    </p>
+                    <a href="#" class="blog-link">Read More <i class="fas fa-arrow-right"></i></a>
+                </div>
+            </article>
+            
+            <article class="blog-card" data-animation="grow">
+                <div class="blog-image-container">
+                    <img src="project.png" alt="Blog Post 2" class="blog-img">
+                    <span class="blog-category">Development</span>
+                </div>
+                <div class="blog-content">
+                    <div class="blog-meta">
+                        <span class="blog-date"><i class="far fa-calendar"></i> Jan 28, 2025</span>
+                        <span class="blog-comments"><i class="far fa-comment"></i> 8 Comments</span>
+                    </div>
+                    <h3 class="blog-title">Getting Started with Web Development as a Student</h3>
+                    <p class="blog-excerpt">
+                        A guide for students interested in learning web development, with resources, 
+                        tips, and a roadmap for beginners.
+                    </p>
+                    <a href="#" class="blog-link">Read More <i class="fas fa-arrow-right"></i></a>
+                </div>
+            </article>
+            
+            <article class="blog-card" data-animation="grow">
+                <div class="blog-image-container">
+                    <img src="project.png" alt="Blog Post 3" class="blog-img">
+                    <span class="blog-category">UI/UX</span>
+                </div>
+                <div class="blog-content">
+                    <div class="blog-meta">
+                        <span class="blog-date"><i class="far fa-calendar"></i> Jan 15, 2025</span>
+                        <span class="blog-comments"><i class="far fa-comment"></i> 5 Comments</span>
+                    </div>
+                    <h3 class="blog-title">Balancing Studies and Freelance Design Work</h3>
+                    <p class="blog-excerpt">
+                        Tips and strategies for student designers who want to take on freelance projects 
+                        while maintaining good academic performance.
+                    </p>
+                    <a href="#" class="blog-link">Read More <i class="fas fa-arrow-right"></i></a>
+                </div>
+            </article>
+        </div>
+        
+        <div class="blog-cta" data-animation="fade-up">
+            <a href="#" class="cta-button outline-btn">View All Posts</a>
+        </div>
+    </section> -->
+
+    <!-- Contact Section -->
+    <section class="contact" id="contact">
+        <h2 class="section-contact-title" style="text-align: center; font-size: xx-large;">Get In Touch</h2>
+        <p style="text-align: center; max-width: 700px; margin: 0 auto 2rem; font-size: 17px;">Have a project in mind or want to collaborate? Feel free to reach out and let's create something amazing together!</p>
+        
+        <div class="contact-container">
+            <div class="contact-info">
+                <div class="contact-item">
+                    <div class="contact-icon">
+                        <i class="fas fa-map-marker-alt"></i>
+                    </div>
+                    <div class="contact-text">
+                        <h3>Address</h3>
+                        <p>Revallapalem Street No 9, Kala Nagar, Madhuravada - 530041, Andhra Pradesh, India</p>
+                    </div>
+                </div>
+                
+                <div class="contact-item">
+                    <div class="contact-icon">
+                        <i class="fas fa-envelope"></i>
+                    </div>
+                    <div class="contact-text">
+                        <h3>Email</h3>
+                        <p>vk7032332758@gmail.com</p>
+                    </div>
+                </div>
+                
+                <div class="contact-item">
+                    <div class="contact-icon">
+                        <i class="fas fa-phone-alt"></i>
+                    </div>
+                    <div class="contact-text">
+                        <h3>Phone</h3>
+                        <p>+91 ***** *****</p>
+                    </div>
+                </div>
+                
+                <div class="contact-item">
+                    <div class="contact-icon">
+                        <i class="fas fa-globe"></i>
+                    </div>
+                    <div class="contact-text">
+                        <h3>Website</h3>
+                        <p>www.veerendrakumar.com</p>
+                    </div>
+                </div>
+            </div>
+            
+            <form class="contact-form">
+                <div class="form-group">
+                    <label for="name" style="font-weight: bold; font-size: large;">Your Name</label>
+                    <input type="text" id="name" class="form-input" placeholder="Enter your name">
+                </div>
+                
+                <div class="form-group">
+                    <label for="email" style="font-weight: bold; font-size: large;">Your Email</label>
+                    <input type="email" id="email" class="form-input" placeholder="Enter your email">
+                </div>
+                
+                <div class="form-group">
+                    <label for="subject" style="font-weight: bold; font-size: large;">Subject</label>
+                    <input type="text" id="subject" class="form-input" placeholder="Enter subject">
+                </div>
+                
+                <div class="form-group">
+                    <label for="message" >Your Message</label>
+                    <textarea id="message" class="form-textarea" placeholder="Enter your message"></textarea>
+                </div>
+                
+                <button type="submit" class="submit-btn">Send Message</button>
+            </form>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="social-links">
+            <a href="#" class="social-link"><i class="fab fa-facebook-f"></i></a>
+            <a href="#" class="social-link"><i class="fab fa-twitter"></i></a>
+            <a href="#" class="social-link"><i class="fab fa-instagram"></i></a>
+            <a href="#" class="social-link"><i class="fab fa-linkedin-in"></i></a>
+            <a href="#" class="social-link"><i class="fab fa-dribbble"></i></a>
+        </div>
+        
+        <p class="footer-text">&copy; 2025 VEERENDRA. All Rights Reserved.</p>
+    </footer>
+    <!-- <script src="https://cdn.jsdelivr.net/npm/bootstrap-table@1.24.0/dist/bootstrap-table.min.js"></script> -->
+    <script src="vk.js"></script>
+    
+</body>
+</html>
