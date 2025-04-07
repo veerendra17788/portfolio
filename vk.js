@@ -131,14 +131,14 @@ function initScrollProgress() {
 function initThemeToggle() {
     const themeToggle = document.getElementById('theme-toggle');
     const themeIcon = themeToggle?.querySelector('i');
-    const prefersDarkScheme = window.matchMedia('(prefers-color-scheme: dark)');
+    const prefersDarkScheme = window.matchMedia('(prefers-color-scheme: light)');
     
     // Check for saved theme preference or use OS preference
     const savedTheme = localStorage.getItem('theme');
     console.log(savedTheme);
     
     if (savedTheme === 'dark' || (!savedTheme && prefersDarkScheme.matches)) {
-        document.body.classList.add('dark-mode');
+        document.body.classList.add('light-mode');
         if (themeIcon) {
             themeIcon.classList.remove('fa-moon');
             themeIcon.classList.add('fa-sun');
@@ -147,10 +147,10 @@ function initThemeToggle() {
     
     // Toggle theme
     themeToggle?.addEventListener('click', () => {
-        document.body.classList.toggle('dark-mode');
+        document.body.classList.toggle('light-mode');
         
-        if (document.body.classList.contains('dark-mode')) {
-            localStorage.setItem('theme', 'dark');
+        if (document.body.classList.contains('light-mode')) {
+            localStorage.setItem('theme', 'light');
             if (themeIcon) {
                 themeIcon.classList.remove('fa-moon');
                 themeIcon.classList.add('fa-sun');
@@ -168,13 +168,13 @@ function initThemeToggle() {
     prefersDarkScheme.addEventListener('change', e => {
         if (!localStorage.getItem('theme')) {
             if (e.matches) {
-                document.body.classList.add('dark-mode');
+                document.body.classList.add('light-mode');
                 if (themeIcon) {
                     themeIcon.classList.remove('fa-moon');
                     themeIcon.classList.add('fa-sun');
                 }
             } else {
-                document.body.classList.remove('dark-mode');
+                document.body.classList.remove('light-mode');
                 if (themeIcon) {
                     themeIcon.classList.remove('fa-sun');
                     themeIcon.classList.add('fa-moon');
